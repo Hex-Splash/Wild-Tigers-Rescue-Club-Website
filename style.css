@@ -1,0 +1,394 @@
+html {
+    background-color: black;
+    font-family: Arcade;
+    font-size: 20pt;
+    scroll-behavior: smooth;
+    cursor: url(Img/cur2.png), auto;
+}
+body {
+    cursor: url(Img/cur2.png), auto;
+}
+.containermain {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    width: 100%;
+    margin-top: -10px;
+    color: white;
+}
+#logo {
+    justify-content: center;
+    font-family: WTRC;
+    font-family: WTRC;
+    padding-top: 9px;
+    src: url(arcade.ttf);
+    font-size: 24pt;
+    margin-left: -210px;
+}
+#hypers {
+    font-family: AP;
+    padding-top: 9px;
+    font-size: 30pt;
+    margin-left: -210px;
+}
+#soc {
+    align-content: center;
+    margin-right: -180px;
+}
+.minipics {
+    width: 250px;
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.underpics2 {
+    text-align: center;
+    padding-top: 50px;
+    width: 500px;
+}
+#solopic {
+    width: 500px;
+    height: 500px;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+.socicons {
+    width: 50px;
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: Arcade;
+    font-size: 20pt;
+}
+#welcome {
+    color: white;
+    font-size: 40pt;
+    padding-top: 75px;
+}
+#art {
+    width: 100%;
+    height: 920px;
+}
+#block1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 75px;
+}
+#pics1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 100px;
+    margin-right: 80px;
+}
+#textblock1 {
+    text-align: left;
+    justify-content: center;
+    width: 900px;
+    margin-left: 30px;
+    font-size: 20pt;
+    line-height: 1.4em;
+}
+#textblock2 {
+    text-align: left;
+    justify-content: center;
+    width: 900px;
+    margin-right: 30px;
+    margin-left: 35px;
+    font-size: 20pt;
+    line-height: 1.4em;
+}
+#white1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: white;
+    padding-top: 150px;
+}
+#red2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+}
+#mb {
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+    font-size: 34pt;
+}
+#pics2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    color: white;
+}
+.pc2 {
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.pics2cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.roadmap {
+    margin: 0px auto;
+    padding: 70px 0 0 0;
+    font-family: Arcade;
+  }
+
+  #dotsblock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 150px;
+  }
+  
+  .roadmap__heading {
+    font-weight: 500;
+    display: block;
+    font-size: 3rem;
+    -webkit-margin-before: 0.67em;
+            margin-block-start: 0.67em;
+    -webkit-margin-after: 0.67em;
+            margin-block-end: 0.67em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
+    color: white;
+  }
+  
+  .roadmap__block, .roadmap__blocklast {
+    font-weight: 500;
+    text-align: center;
+    padding: 1rem;
+    clear: both;
+    margin: 3rem 0rem 3rem 0rem;
+    line-height: 30px;
+    color: white;
+    position: relative;
+  }
+  
+  .roadmap__block::before {
+    top: calc(50% - -50%);
+    border-style: solid;
+    border-color: white  white  transparent transparent;
+    border-width: 10px;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg) translateX(20px);
+  }
+  
+  .roadmap__block::after, .roadmap__block::before {
+    content: "";
+    position: absolute;
+  }
+
+  .roadmap__one {
+    font-size: 1.8rem;
+    line-height: 1;
+    -o-border-image: none 100% / 1 / 0 stretch;
+       border-image: none 100% / 1 / 0 stretch;
+  }
+  
+  .roadmap__two {
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 40px;
+  }
+  
+  .roadmap__three {
+    color: white;
+    line-height: 1.5;
+    font-size: 1rem;
+    margin: 0.5rem 0px 0px;
+  }
+  .container {
+    max-width: 1052px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 24px;
+    color: black;
+    font-weight: 200;
+  }
+#mbt {
+    color: white;
+}
+#mtt {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 34pt;
+}
+footer {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 14pt;
+}
+.fttext {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    padding-top: 70px;
+}
+#block2 {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+.block2cont {
+    margin-top: 50px;
+}
+#block3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+}
+.block3cont {
+    margin-top: 120px;
+    width: 700px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.block3container {
+    display: flex;
+    flex-direction: column;
+}
+#block3row {
+    display: flex;
+    flex-direction: row;
+}
+#mb1 {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 34pt;
+}
+#pics3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    color: white;
+}
+.pc3 {
+    width: 250px;
+    height: 250px;
+}
+.pics3cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -60px;
+    margin-right: -60px;
+}
+.upperpics {
+    padding-bottom: 30px;
+}
+a, a:visited {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+#mintButtonDiv {
+    width: 100%;
+    margin-top: -80px;
+}
+#mintButton {
+    width: 2000px;
+    height: 80px;
+    font-size: 14pt;
+    font-family: WTRC;
+    src: url(arcade.ttf);
+    background-color: #1d80db;
+    color: #1d80db;
+    border: 3px solid #1d80db;
+    width: 100%;
+    text-align: center;
+}
+#buttonWhiteBlock {
+    background-color: white;
+    width: 320px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#blueh {
+    color: #1d80db;
+}
+#htmcontainer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.htmtextblock {
+    font-size: 20pt;
+    text-align: center;
+    line-height: 1.4em;
+    margin-top: 30px;
+}
+#htmtextblock4 {
+    width: 1200px;
+    font-size: 20pt;
+    text-align: center;
+    line-height: 1.4em;
+    margin-top: 30px;
+    margin: auto;
+}
